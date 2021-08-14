@@ -2,7 +2,7 @@
 
 An interactive convolutional neural network visualisation tool which implements clustered feature maps.
 
-![DeepLearner](https://imgur.com/a/6nHdUpB)
+![Imgur Image](https://imgur.com/a/6nHdUpB)
 
 ## Installation
 
@@ -12,7 +12,7 @@ Create a virtual environment and install depedancies listed in `cnn/requirements
 
 1. To generate new visualisations, place desired inout image in in `cnn/script.py`, modify `mountain_lion.jpg` to desired image.
 2. Run `python3 script.py' to generate clsutered feature maps in current repository.
-3. To view on front-end, copy layer directories to `\web' and create a new `\featured_imgs' directory in each `\layer'. Here you will paste 24 images, one from each cluster in the layer that you wish to be the representative feature map for each cluster. Name these `1` to `24`.
+3. To view on front-end, copy layer directories to `\web` and create a new `\featured_imgs` directory in each `\layer`. Here you will paste 24 images, one from each cluster in the layer that you wish to be the representative feature map for each cluster. Name these `1` to `24`.
 4. Start a local php server on localhost:80 to view visualisations.
 
 Extra: uncomment dendrogram code in `main()` to view dendrogram results for each layer.
