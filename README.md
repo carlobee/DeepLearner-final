@@ -2,7 +2,7 @@
 
 An interactive convolutional neural network visualisation tool which implements clustered feature maps.
 
-![Imgur Image](https://imgur.com/a/6nHdUpB)
+![Imgur Image](https://imgur.com/IEKQXUc.png)
 
 ## Installation
 
