@@ -1,0 +1,206 @@
+/* Remove padding and margins for all */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main_container {
+  height: 100%;
+  min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.topnav {
+  background-color: #5A6AFF;
+  overflow: hidden;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 24px 0px 24px 34px;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.top_container {
+  flex: 1;
+  padding: 1.5%;
+}
+
+.side_menu {
+  background-color: #C4C4C4;
+  height: 100%;
+  float: left;
+  width: 15%;
+  margin-right: 1.5%;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  position: relative;
+}
+
+.menu_header{
+  background-color: black;
+  color: white;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.side_menu img {
+  width: 300px;
+}
+
+.big_img{
+  position: relative;
+  image-rendering: pixelated;
+}
+
+.grid {
+  position: absolute;
+  top: 391px;
+  left: 37px;
+}
+
+
+.mapbox_container {
+  width: 83.5%;
+  float:left;
+}
+
+.map_box {
+  background-color: #C4C4C4;
+  height: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+ 
+.map_box img {
+  width: 200px;
+  border: 5px solid transparent;
+  image-rendering: pixelated;
+}
+
+.map_box img:hover {
+  border: 5px solid yellow;
+}
+
+.mapbox_info_header{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.mapbox_info_header img{
+  width: 40px;
+  float: left;
+  padding-right: 40px;
+}
+
+.mapbox_controls{
+  background-color: #8B8B8B;
+}
+
+.filler{
+  background-color: #C4C4C4;
+  height: 30px;
+}
+
+.mapbox_controls img {
+  width: 40px;
+  padding: 10px;
+}
+
+#backButton{
+  display: none;
+}
+
+.mapbox_info_header a {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+#selected_fmap {
+  margin-top: 5%;
+}
+
+#model_header {
+  margin-bottom: 0px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.bottom_container {
+  height: 350px;
+  padding-bottom: 1.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+.diagram_holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #C4C4C4;
+}
+
+.diagram_holder img{
+  width: 70px;
+  border: 5px solid transparent;
+}
+
+.diagram_holder img:hover{
+  border: 5px solid yellow;
+}
+
+.convlayer2 {
+  width: 100px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.convlayer3 {
+  width: 150px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+.layer {
+  width: 50px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+#selectedlayer{
+  border: 5px solid yellow;
+}
+
+.arrow {
+  width: 40px;
+  height: 60px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.arrow:hover {
+  border: 5px solid transparent;
+}
