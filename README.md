@@ -6,7 +6,7 @@ An interactive convolutional neural network visualisation tool which implements 
 
 ## Installation
 
-Create a virtual environment and install depedancies listed in `cnn/requirements.txt`.
+Create a virtual environment and install dependencies listed in `cnn/requirements.txt`.
 
 ## Execution
 
